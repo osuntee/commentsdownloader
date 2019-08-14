@@ -11,7 +11,7 @@ function getYoutubeVideoID($url){
 }
             $video_url = $_POST['come'];
 
-$api_key = 'AIzaSyCPsRFxWB2f2ZKQA54HmHvIlTW0qf4TI98';
+$api_key = 'YOUR_API_KEY';
 
 $api_url = 'https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=100&moderationStatus=published&textFormat=plainText&videoId='.getYoutubeVideoID($video_url).'&key='.$api_key; 
 
